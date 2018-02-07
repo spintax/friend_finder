@@ -1,0 +1,11 @@
+{
+  "name": "friend_finder",
+  "version": "0.1.0",
+  "description": "A friendship compatibility app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Adam Mageer",
+  "license": "ISC"
+}
