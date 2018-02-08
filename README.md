@@ -1,4 +1,4 @@
-# friendfinder
+# Friendize Me!
 
 *A friendship compatibility app*
 

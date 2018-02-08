@@ -1,78 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <!-- Material Icon CDN -->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <!-- Materialize CSS CDN -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
-    <!-- Your custom styles -->
-    <link rel="stylesheet" href="css/style.css">
-    <!--  google fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Roboto|Special+Elite" rel="stylesheet">
-    <!--Import jQuery before materialize.js-->
-    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-    <!-- Compiled and minified JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
-
-    <title>Friendize me!</title>
+  <meta charset="UTF-8">
+  <title>Tables Page</title>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 </head>
-
 <body>
-    <nav>
-        <div class="container">
-            <div class="nav-wrapper">
-                <a href="#!" class="brand-logo center">FRIENDIZE ME!</a>
-                <a href="#" data-activates="mobile-demo" class="button-collapse">
-                    <i class="material-icons">menu</i>
-                </a>
-                <ul class="right hide-on-med-and-down">
-                    <li>
-                        <a href="sass.html">Survey</a>
-                    </li>
-                    <li>
-                        <a href="badges.html">My Matches</a>
-                    </li>
-                </ul>
-                <ul class="side-nav" id="mobile-demo">
-                    <li>
-                        <a href="survey.html">Survey</a>
-                    </li>
-                    <li>
-                        <a href="badges.html">My Matches</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    <div class="container">
-        <div class="col s12 m7 lg8">
-            <h2 class="header">Horizontal Card</h2>
-            <div class="card horizontal">
-                <div class="card-image">
-                    <img src="https://lorempixel.com/100/190/nature/6">
-                </div>
-                <div class="card-stacked">
-                    <div class="card-content">
-                        <p>Using math ans science and junk, Freindize Me! will find you a new friend!.</p>
-                    </div>
-                    <div class="card-action">
-                        <a href="#">This is a link</a>
-                    </div>
-                </div>
-            </div>
-        </div>
+  <div class="container">
+    <div class="jumbotron">
+      <h1 class="text-center"><span class="glyphicon glyphicon-fire"></span> Friendize Me!</h1>
+      <hr>
+      <h2 class="text-center">Take a survey, find a friend!</h2>
+      <br>
+      <h6 class="text-center">We utilize a proprietary algorithm to analyze the results so we can match you with your new best friend!</h6>
+      <div class="text-center">
+        <!-- <a href="/home"><button type="button" class="btn btn-lg btn-primary"><span class="glyphicon glyphicon-list-alt"></span> View Tables</button></a> -->
+        <a href="/survey"><button type="button" class="btn btn-lg btn-danger"><span class="glyphicon glyphicon-credit-card"></span> Survey</button></a>
+      </div>
     </div>
-
-
-
-    <!--Import jQuery before materialize.js-->
-    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <footer class="footer">
+      <div class="container">
+        <p><a href="/api/friends">API Friend List</a> | <a href="https://github.com/michellechristina/friendfinder">GitHub Repo</a></p>
+      </div>
+    </footer>
+  </div>
 </body>
-
 </html>
